@@ -1,0 +1,109 @@
+.page {
+  width: 900px;
+  height: auto;
+  margin: 5% 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 242, 237);
+}
+
+.coffeeSection {
+  display: flex;
+}
+
+.coffeeBox {
+  width: 250px;
+  height: auto;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 30px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+}
+
+.syropButton {
+  width: 150px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.coffeeSize {
+  width: 50px;
+  height: 25px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.activeBtn {
+  background-color: green;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox label {
+  margin: 5px;
+}
+
+.buttonAdd {
+  width: 150px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.basket {
+  width: 900px;
+  border-top: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basket h1 {
+  margin: 20px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.plus,
+.minus {
+  height: 25px;
+  width: 25px;
+  margin: 5px 10px;
+}
+
+svg:active {
+  opacity: 50%;
+}
+
+.orders {
+  width: 85%;
+  border: 3px solid red;
+  border-radius: 20px;
+}
+
+.position {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.invoice-amount {
+  padding: 1.5rem;
+  border-top: 3px solid red;
+  display: flex;
+  justify-content: right;
+}
